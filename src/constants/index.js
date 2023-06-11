@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
   } from "../assets";
   
   export const navLinks = [
@@ -65,16 +66,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -97,66 +90,49 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: 'Python',
+      icon: python,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Assistant Manager",
+      company_name: "Menards",
+      //icon: starbucks,
+      //iconBg: "#383E56",
+      date: "March 2020 - May 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Allocating tasks to and working with team members.",
+        "Keeping the department clean.",
+        "Learning information about various paints and stains in order to help customers better.",
+        "Stocking shelves.",
+        "Working on paperwork to take inventory, keep track of stolen goods, and schedule team member hours."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Helm Assembly Team Member",
+      company_name: "Brunswick",
+      //icon: tesla,
+      //iconBg: "#E6DEDD",
+      date: "Jul 2021 - Aug 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Used various tools, including drills, hole saws, and saws to prepare fiberglass helms.",
+        "Worked with overs in a production line to keep assembling helms for boats.",
+        "Learned about the helm and boat assembly process.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Zund Operator",
+      company_name: "New Process",
+      //icon: shopify,
+      //iconBg: "#383E56",
+      date: "Mar 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Operate different machines to cut, laminate, and print labels.",
+        "Inspects and ships labels out to customers.",
+        "Keeps the shop clean and organized whenever workflow is slow.",
+        "Trains others to perform the same duties.",
       ],
     },
   ];
