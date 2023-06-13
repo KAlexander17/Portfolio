@@ -32,7 +32,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               <img 
                 src={github}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-1/2 h-1/2 object-contain black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               />
             </div>
           </div>
@@ -70,7 +70,8 @@ const Works = () => {
         >
           These are the projects I have worked on throughout my time learning how to program
           websites. There are links to each one so you can check them out. I have more projects
-          I'm working on, and I'll be updating this website as I finish them.
+          I'm working on, and I'll be updating this website as I finish them. Click on the github
+          icons to see my code on github.
         </motion.p>
       </div>
 

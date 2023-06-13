@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
     python,
+    ecommerce,
   } from "../assets";
   
   export const navLinks = [
@@ -166,25 +167,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ecommerce Store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An ecommerce web store for purchasing materials for playing Dungeons & Dragons. Made using react and css for styling as well as some react libraries for adding purchase functionality.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "commerce.js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "stripe",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ecommerce,
+      link: 'https://ecommercedndstore.netlify.app/',
+      source_code_link: "https://github.com/KAlexander17/EcommerceWebsite",
     },
     {
       name: "Job IT",
