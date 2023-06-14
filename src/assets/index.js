@@ -32,6 +32,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ecommerce from './ecommerce.png';
+import restaurant from './restaurant.png';
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   tripguide,
   python,
   ecommerce,
+  restaurant,
 };
