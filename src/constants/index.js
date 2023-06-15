@@ -171,6 +171,7 @@ import {
       name: "Ecommerce Store",
       description:
         "An ecommerce web store for purchasing materials for playing Dungeons & Dragons. Made using react and css for styling as well as some react libraries for adding purchase functionality.",
+      link: 'https://ecommercedndstore.netlify.app/',
       tags: [
         {
           name: "react",
@@ -186,13 +187,13 @@ import {
         },
       ],
       image: ecommerce,
-      link: 'https://ecommercedndstore.netlify.app/',
       source_code_link: "https://github.com/KAlexander17/EcommerceWebsite",
     },
     {
       name: "Restaurant Website",
       description:
         "A website for a mock restaurant serving italian cuisine. Made with javascript, react, and css for styling.",
+      link: 'https://reastaurantwebsite.netlify.app/',
       tags: [
         {
           name: "react",

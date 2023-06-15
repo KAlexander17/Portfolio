@@ -7,7 +7,7 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, link, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt options={{
@@ -34,15 +34,18 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               />
+              
             </div>
+            
           </div>
+          
         </div>
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
-
+        <a href={link} target='_blank'>Click here to view this website</a>
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
@@ -50,6 +53,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             </p>
           ))}
         </div>
+        
       </Tilt>
     </motion.div>
   )
